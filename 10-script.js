@@ -35,7 +35,7 @@ function Hero(name, punchDialog, movie)
     };
   }
   
-  const hero1 = new Hero("Bhaskar", "Nenu Trend Follow Avvanu... Trend Set Chestha!", "Dookudu");
+  const hero1 = new Hero("bhaskar", "Nenu Trend Follow Avvanu... Trend Set Chestha!", "Dookudu");
   
   hero1.introduce();
   
