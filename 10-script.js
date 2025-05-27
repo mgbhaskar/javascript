@@ -14,10 +14,9 @@
   
 //   user.greet();
 
+
+
 // 2) constructor functions
-
-// Constructor Function for a Hero
-
 
 function Hero(name, punchDialog, movie) 
 
