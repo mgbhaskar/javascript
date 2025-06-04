@@ -7,7 +7,7 @@ const movies = [
     { title: "Maharshi", director: "Vamshi Paidipally ", year: 2019 },
     { title: "Rakta Charitra", director: " Ram Gopal Varma", year: 2010 },
 
-    { title:"spirit ", director: "Sandeep Reddy", year: undefined},
+    { title:"spirit ", director: "Sandeep Reddy", year: 'expected in 2026'},
 
   ];
   
@@ -19,40 +19,44 @@ const movies = [
     console.log(`Director: ${movie.director}`);
 
     console.log(`Year: ${movie.year}`);
+    if(movie.title=="Leo")
+    {
+      console.log(`i saw ${movie.title} movie`)
+    }
 
   }
 
 
 // example--2
 
-const cities = [
-    { name: "Hyderabad", state: "Telangana" },
-    { name: "Bangalore", state: "Karnataka" },
-    { name: "Mumbai", state: "Maharashtra" }
-  ];
+// const cities = [
+//     { name: "Hyderabad", state: "Telangana" },
+//     { name: "Bangalore", state: "Karnataka" },
+//     { name: "Mumbai", state: "Maharashtra" }
+//   ];
   
-  for (const city of cities) {
-    console.log(`City: ${city.name}, State: ${city.state}`);
-  }
+//   for (const city of cities) {
+//     console.log(`City: ${city.name}, State: ${city.state}`);
+//   }
 
 
   
-// example--3
+// // example--3
 
-const softwares = [
-    { name: "MS Word", type: "Word Processor" },
-    { name: "Photoshop", type: "Image Editor" },
-    { name: "VS Code", type: "Code Editor" },
-    { name: "Chrome", type: "Web Browser" }
-  ];
+// const softwares = [
+//     { name: "MS Word", type: "Word Processor" },
+//     { name: "Photoshop", type: "Image Editor" },
+//     { name: "VS Code", type: "Code Editor" },
+//     { name: "Chrome", type: "Web Browser" }
+//   ];
   
-  for (const software of softwares) {
-    console.log(`Name: ${software.name}, Type: ${software.type}`);
-  }
+//   for (const software of softwares) {
+//     console.log(`Name: ${software.name}, Type: ${software.type}`);
+//   }
 
 
 
-// example--4
+// // example--4
 
 
 const properties =
@@ -66,8 +70,8 @@ const properties =
     console.log(`Name: ${property.name}`);
     (`Type: ${property.type}`);
        (`Price: ₹${property.price}`);
+      
   }
   
-  
 
-//   console.log(`Title: ${movie.title}`);
+  // console.log(`Title: ${movie.title}`);

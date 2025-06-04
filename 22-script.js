@@ -1,4 +1,4 @@
- //  do while
+ //  do while  
  let countryPosition = 0;
 
 const countryList = [
