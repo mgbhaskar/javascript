@@ -18,4 +18,8 @@ do {
 
   countryPosition = countryPosition + 1;
 
-} while (countryPosition < countryList.length);
+}
+ while (countryPosition < countryList.length);
+// } while (countryPosition < countryList.length);
+
+
