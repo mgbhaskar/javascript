@@ -24,7 +24,6 @@ while (countryPosition < countryList.length) {
 
   countryPosition = countryPosition + 1;
 }
-
 //example   2
 
 // let moviePosition = 0;
