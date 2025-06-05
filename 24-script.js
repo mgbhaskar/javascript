@@ -21,7 +21,7 @@
 
 // //example ----2
 
-// function goToTheatre() {
+// function goToTheatre() {  
 //     console.log("Step 1: Go to the theatre");
 // }
 
