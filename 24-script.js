@@ -15,7 +15,7 @@
 // }
 
 // // Synchronous Execution
-// chooseItem();
+// chooseItem();   
 // addToCart();
 // makePayment();
 

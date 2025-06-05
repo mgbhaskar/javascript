@@ -6,10 +6,10 @@ const person = {
     city: "Hyderabad"
   };
   
-  for (let hi in person) 
+  for (let persondetails in person) 
     
     {
-    console.log(`${hi}: ${person[hi]}`);
+    console.log(`${persondetails}: ${person[persondetails]}`);
   }
   
 
