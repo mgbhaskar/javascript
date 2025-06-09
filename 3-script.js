@@ -5,23 +5,34 @@ let Country= ["Japan","India","Australia","Germany","Switzerland"];
 
 console.log(Country);
 
-console.log(Country[0]);
-console.log(Country[1]);
-console.log(Country[2]);
-console.log(Country[3]);
-console.log(Country[4]);
+// console.log(Country[0]);
+// console.log(Country[1]);
+// console.log(Country[2]);
+// console.log(Country[3]);
+// console.log(Country[4]);
 
 
 
 let capital = ["Tokyo","Delhi","Canberra","Berlin","Bern"];
 
-console.log(capital[0]);
-console.log(capital[1]);
-console.log(capital[2]);
-console.log(capital[3]);
-console.log(capital[4]);
+// console.log(capital[0]);
+// console.log(capital[1]);
+// console.log(capital[2]);
+// console.log(capital[3]);
+// console.log(capital[4]);
+
+
 
 let states =[47,28,6,16,26];
+
+
+
+// console.log(states[0]);
+// console.log(states[1]);
+// console.log(states[2]);
+// console.log(states[3]);
+// console.log(states[4]);
+
 
 let countryDetails=[`Nihon`,`developedcountry`,`Alps`,`Deutschland`,`Alp`];
 
