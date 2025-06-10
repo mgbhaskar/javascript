@@ -1,7 +1,5 @@
 
 
-
-
 // / //      Encapsulation    /////// 
 
 
@@ -12,7 +10,7 @@ class BankAccount
     {
         let _balance = balance;
 
-        this.getBalance = function()
+        this.getBalance = function()  
          {
             return _balance;
         };
